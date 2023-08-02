@@ -7,7 +7,8 @@
 const projects = [
   {
     id: 1,
-    image: "colabee",
+    image:
+      "https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     title: "COOLABEE ECOMMERCE WEBSITE",
     description:
       "An ecommerce website built with JavaScript, Firebase, and Vue.js to provide a modern and user-friendly online shopping experience. This website is built with Vue.js as the front-end framework, allowing for easy creation of interactive and dynamic interfaces.",
@@ -25,7 +26,8 @@ const projects = [
   },
   {
     id: 3,
-    image: "portfolio",
+    image:
+      "https://images.pexels.com/photos/17834621/pexels-photo-17834621/free-photo-of-relaxing.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     title: "PROGRAM WITH ABU",
     description:
       "A portfolio website built with JavaScript and React provides a dynamic and visually appealing way to showcase a person's skills, projects, and experiences. The website uses React as the front-end library, allowing for easy creation of reusable components and efficient rendering of the user interface.",
@@ -42,7 +44,8 @@ const projects = [
   },
   {
     id: 2,
-    image: "shomi",
+    image:
+      "https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     title: "SHOMI ECOMMERCE WEBSITE",
     description:
       "An ecommerce website built with JavaScript, Firebase, and React offers a modern and scalable platform for online businesses to sell their products and services. React serves as the front-end library and redux for state management, enabling the creation of interactive and responsive interfaces that provide a seamless user experience.",
@@ -60,7 +63,8 @@ const projects = [
   },
   {
     id: 7,
-    image: "businessCard",
+    image:
+      "https://images.pexels.com/photos/326569/pexels-photo-326569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     title: "BUSINESS CARD GENERATOR",
     description:
       "A business card generator website built with JavaScript and Vue.js offers an easy and efficient way to create professional business cards online. The website utilizes Vue.js as the front-end framework, allowing for the creation of interactive and dynamic interfaces with an option to download the card",
@@ -77,7 +81,8 @@ const projects = [
   },
   {
     id: 4,
-    image: "wordpress",
+    image:
+      "https://images.pexels.com/photos/4160094/pexels-photo-4160094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     title: "HOME ON THE NILE",
     description:
       "A guest house website built with WordPress and Elementor offers a visually appealing and user-friendly platform for showcasing the guest house's amenities, services, and accommodations. WordPress serves as the content management system, providing a robust platform for creating and managing website content.",
@@ -103,7 +108,8 @@ const projects = [
   // },
   {
     id: 6,
-    image: "wordpress",
+    image:
+      "https://images.pexels.com/photos/4160094/pexels-photo-4160094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     title: "HORIZON INTERNATIONAL SCHOOL",
     description:
       "An international school website built with WordPress and Elementor provides an informative and user-friendly platform for showcasing the school's academic programs, extracurricular activities, admissions, and other services. WordPress serves as the content management system, providing a flexible and scalable platform for creating and managing website content.",
