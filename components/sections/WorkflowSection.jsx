@@ -1,3 +1,4 @@
+// eslint-disable-next-line react/display-name
 import { forwardRef } from "react";
 
 const WorkflowSection = forwardRef((props, ref) => {

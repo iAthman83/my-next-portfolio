@@ -1,3 +1,4 @@
+// eslint-disable-next-line react/display-name
 import { forwardRef } from "react";
 import Image from "next/image";
 // import heroImg from "../assets/sitting-webp.webp";

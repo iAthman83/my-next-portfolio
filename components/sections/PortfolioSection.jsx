@@ -1,3 +1,4 @@
+// eslint-disable-next-line react/display-name
 import { forwardRef } from "react";
 import ProjectsCardComponent from "../ProjectsCardComponent";
 import { projects } from "@/data/projectsData";
