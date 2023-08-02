@@ -30,6 +30,8 @@ module.exports = {
         reactBg: "#00CCFF",
         wordpressBg: "#2C99C6",
         elementorBg: "#D63362",
+        darkBg: "#1B181E",
+        lightBg: "#F0F0F0",
       },
     },
   },
