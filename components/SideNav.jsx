@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 import {
   HiOutlineHome,
   HiOutlineUser,
@@ -126,8 +127,8 @@ function SideNav({ aboutRef, homeRef, projectsRef, workflowRef }) {
           <h1 className="hidden">Twitter</h1>
         </a>
         {/* blog button on mobile view */}
-        <div
-          to="/blog"
+        <Link
+          href="/blog"
           className="flex md:hidden space-x-2 items-center cursor-pointer text-white px-4 md:px-2 p-2 px-auto bg-zinc-700 rounded-lg md:rounded-full hover:bg-twitterBlue"
         >
           <HiOutlineDocumentText
@@ -135,7 +136,7 @@ function SideNav({ aboutRef, homeRef, projectsRef, workflowRef }) {
             className="text-yellow-500 md:text-white"
           />
           <h1 className="hidden">Twitter</h1>
-        </div>
+        </Link>
       </div>
       {/* nav */}
       <nav className="hidden md:flex md:flex-col md:justify-center space-x-1 md:space-x-0 md:space-y-2 md:ml-6 mt-12">
@@ -215,10 +216,13 @@ function SideNav({ aboutRef, homeRef, projectsRef, workflowRef }) {
           <h1 className="hidden md:block text-zinc-400">Workflow</h1>
         </section> */}
         {/* blog */}
-        <div className="flex space-x-4 items-center cursor-pointer text-white p-2 px-auto rounded-lg hover:bg-zinc-700">
+        <Link
+          href="/blog"
+          className="flex space-x-4 items-center cursor-pointer text-white p-2 px-auto rounded-lg hover:bg-zinc-700"
+        >
           <HiOutlineDocumentText size={24} className="text-zinc-400" />
           <h1 className="hidden md:block text-zinc-400">Blog</h1>
-        </div>
+        </Link>
       </nav>
     </div>
   );
