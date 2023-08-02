@@ -14,7 +14,7 @@ export default function Home() {
   const projectsRef = useRef(null);
   const workflowRef = useRef(null);
   return (
-    <main className="bg-grayBg">
+    <main className="bg-primary-dark">
       <SideNav
         aboutRef={aboutRef}
         homeRef={homeRef}

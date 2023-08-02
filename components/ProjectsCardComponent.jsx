@@ -9,15 +9,16 @@ const ProjectsCardComponent = (props) => {
         {/* <RiYoutubeFill size={30} /> */}
         <Image
           className=""
-          src="https://images.pexels.com/photos/4160094/pexels-photo-4160094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          src={props.image}
+          // src="https://images.pexels.com/photos/4160094/pexels-photo-4160094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           alt="image"
-          width={48}
+          width={400}
           height={48}
         />
       </div>
       {/* Description */}
       <div className="px-2 my-6 flex flex-col space-y-4">
-        <h1 className="text-sideBarText text-2xl font-sofia font-extrabold">
+        <h1 className="text-sideBarText text-xl font-sofia font-extrabold">
           {props.title}
         </h1>
         <p className="text-base text-textGray">{props.description}</p>

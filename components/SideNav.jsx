@@ -62,7 +62,7 @@ function SideNav({ aboutRef, homeRef, projectsRef, workflowRef }) {
       {/* logo */}
       <div className="hidden md:flex md:flex-col md:items-center md:justify-center md:my-2 py-2 space-y-4 px-auto">
         <Image
-          className="h-52 border-8 border-gray-700 rounded-full"
+          className=" border-8 border-gray-700 rounded-full"
           src={portrait}
           alt="portrait"
         />

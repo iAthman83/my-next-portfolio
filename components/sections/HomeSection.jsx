@@ -1,13 +1,17 @@
 import { forwardRef } from "react";
 import Image from "next/image";
 // import heroImg from "../assets/sitting-webp.webp";
-import heroImg from "@/assets/sitting-webp.webp";
+// import heroImg from "@/public/assets/sitting-webp.webp";
 
 const HomeSection = forwardRef((props, ref) => {
   return (
     <div
       ref={ref}
-      style={{ backgroundImage: `url(${heroImg})` }}
+      style={{
+        backgroundImage:
+          'url("https://images.pexels.com/photos/17834621/pexels-photo-17834621/free-photo-of-relaxing.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")',
+        // objectFit: "cover",
+      }}
       className="bg-cover bg-center hero-overlay md:container md:mx-auto md:flex md:h-screen bg-grayBg md:items-center md:px-0 flex flex-col py-8 md:flex-row px-4"
     >
       <div className="h-full w-full bg-cover bg-center backdrop-brightness-75 md:container md:mx-auto md:flex md:h-screen md:pb-20 md:pt-10 md:items-center flex flex-col py-8 space-y-2 md:flex-row px-4 md:px-12">
