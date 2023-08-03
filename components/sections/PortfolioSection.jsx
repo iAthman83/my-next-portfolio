@@ -20,7 +20,7 @@ const PortfolioSection = forwardRef((props, ref) => {
         </p>
         <div className="border-b-8 border-zinc-400 w-28 text-sideBarBg">.</div>
       </div>
-      <div className="carousel carousel-center space-x-6 md:flex md:flex-row md:flex-wrap md:space-x-4 md:justify-center md:space-y-10">
+      <div className="carousel carousel-center space-x-6 max-w-md md:max-w-none md:flex md:flex-row md:flex-wrap md:space-x-4 md:justify-center md:space-y-10">
         {projects.map((project) => (
           <li
             className="list-none carousel-item md:first:mt-10 md:first:ml-4"
