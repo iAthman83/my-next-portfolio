@@ -58,19 +58,19 @@ const AboutSection = forwardRef((props, ref) => {
               href="mailto:abuathman83@gmail.com"
               target="_blank"
               rel="noreferrer"
-              className="flex space-x-2 items-center cursor-pointer text-white p-2 px-auto bg-emerald-500 md:px-4 rounded-lg hover:bg-emerald-600"
+              className="flex space-x-2 items-center cursor-pointer text-white p-2 px-auto bg-emerald-500 md:px-8 rounded-lg hover:bg-emerald-600"
             >
               {/* <RiMailFill size={25} className="text-mailBlue" /> */}
-              <p className="md:text-lg">Contact me</p>
+              <p className="">Contact me</p>
             </Link>
             <a
               href="https://www.youtube.com/@programwithabu"
               target="_blank"
               rel="noreferrer"
-              className="flex space-x-2 items-center cursor-pointer text-white p-2 px-auto bg-sideBarHighlight md:px-14 px-6 rounded-lg hover:bg-zinc-700"
+              className="flex space-x-2 items-center cursor-pointer text-white p-2 px-auto bg-sideBarHighlight md:px-8 px-6 rounded-lg hover:bg-zinc-700"
             >
               {/* <RiYoutubeFill size={25} className="text-youtubeRed" /> */}
-              <h1 className="md:text-lg">Subscribe</h1>
+              <p className="">Subscribe</p>
             </a>
           </div>
         </div>
