@@ -8,12 +8,10 @@ export const metadata = {
 
 export default function BlogLayout({ children }) {
   return (
-    <html lang="en">
-      <body>
-        <BlogHeaderComponent />
-        <main className="min-h-screen">{children}</main>
-        <BlogFooterComponent />
-      </body>
-    </html>
+    <>
+      <BlogHeaderComponent />
+      <main className="min-h-screen">{children}</main>
+      <BlogFooterComponent />
+    </>
   );
 }
